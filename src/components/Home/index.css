@@ -21,10 +21,7 @@
     border-width: 2px;
     border-radius: 13px;
     margin-top: 23px;
-}.LeftCon::-webkit-scrollbar{
-    display: none;
-}
-.rowCon{border-radius: 13px 13px 0px 0px;
+}.rowCon{border-radius: 13px 13px 0px 0px;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -38,12 +35,7 @@
 }.rowCon2{
     min-height: 15vh;
     border-width:0px 0px 0.5px 0px;
-    transition: 1s;
-}.rowCon2:hover{
-    background-color:#FCE77D;
-    transform: scale(1.1);
- }
-.RightCon{
+}.RightCon{
     min-width: 30%;
     margin-left: 43px;
     height: 70vh;
