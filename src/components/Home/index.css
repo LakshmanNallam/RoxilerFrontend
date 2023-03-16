@@ -28,7 +28,7 @@
     align-items: center;
     min-height: 7vh;
     font-weight: bold;
-    border-style: solid;
+    
     border-width:0px 0px 0.5px 0px;
     border-width: 100%;
     
@@ -88,5 +88,7 @@
         align-items: center;
     }.rowCon2{
         min-height: 19vh;
+    }.RightCon{
+        width: 90%;
     }
 }

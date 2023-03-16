@@ -3,7 +3,8 @@
     padding: 23px;
     border-radius: 13px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    display: flex;width: 90%;
+    display: flex;
+    width: 90%;
     color: white;
 }
 .spanEle{
