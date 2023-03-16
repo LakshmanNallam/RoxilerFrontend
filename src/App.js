@@ -6,11 +6,11 @@ import './App.css'
 class App extends Component {
   state = {userDetails: null}
 
-  getUserDetails = async(id,title) => {
+  getUserDetails = async(id,title,todoId) => {
     console.log(id)
     const response=await fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
     const data=(await response.json())
-    this.setState({userDetails:{...data,title}})
+    this.setState({userDetails:{...data,title,todoId}})
   }
 
   render() {

@@ -28,7 +28,7 @@ class Home extends Component{
                 {value=>{
                     const {getUserDetails}=value
                     const getUserDetailsCall=()=>{
-                        getUserDetails(eachItem.userId,eachItem.title)
+                        getUserDetails(eachItem.userId,eachItem.title,eachItem.id)
                     }
                     return <div className='rowCon rowCon2'><h1  className='paraWidth'>{eachItem.id}</h1><p  className='paraWidth'>{eachItem.title}</p><p  className='paraWidth'>{eachItem.completed?"Completed":"Incomplete"}</p><div  className='paraWidth' ><button onClick={getUserDetailsCall}>User Details</button></div></div>
                 } }  
